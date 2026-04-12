@@ -32,7 +32,7 @@ const AUTHCHECK = passport.authenticate('local', {session: false});
  })
 
 
- app.use('/person', AUTHCHECK,Personroutes);
+ app.use('/person',Personroutes);
 app.use('/menu', Menuroutes)
  
 
